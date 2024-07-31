@@ -1,186 +1,12 @@
+/* General Styles */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
     color: #fff;
-}
-
-.resume-download {
-    margin-top: 5px;
-}
-
-.resume-download a {
-    display: inline-block;
-    padding: 10px 10px;
-    background-color: #b8e3ff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: #000;
-    text-decoration: none;
-    border-radius: 10px;
-    transition: background-color 0.3s;
-}
-
-.resume-download a:hover {
-    background-color: #fff;
-    color: #000;
-}
-
-header {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.pic {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #9b59b6;
-}
-
-.section1 {
-    padding: 50px 0;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background: rgba(255, 255, 255, 0.1);
-}
-
-.container1 {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    color: #ffffff;
-    /* Set a dark color for the heading */
-}
-
-.education-item {
-    /* Set a white background color for each item */
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Add a subtle shadow */
-}
-
-.education-item h3 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-    color: #ffffff;
-    /* Set a dark color for the university name */
-}
-
-.degree {
-    font-size: 1.4rem;
-    margin-bottom: 15px;
-    color: #ffffff;
-    /* Set a slightly darker color for the degree */
-}
-
-.graduation {
-    font-style: italic;
-    color: #ffffff;
-    /* Set a lighter color for the graduation information */
-}
-
-.section {
-    padding: 50px 0;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.1);
-    margin: 5px 0;
-    border-radius: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
-h1,
-h2,
-h3 {
-    margin: 0.5rem 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-p {
-    margin: 0.5rem 0 1.5rem;
-}
-
-.experience-item {
-    text-align: left;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 1rem;
-    border-radius: 10px;
-    margin-bottom: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.skill-item {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    padding: 1rem;
-    margin: 0.5rem;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: transform 0.3s;
-}
-
-.skill-item img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 0.5rem;
-}
-
-.skill-item span {
-    font-size: 1.2rem;
-}
-
-.skill-item:hover {
-    transform: translateY(-5px);
+    line-height: 1.6;
 }
 
 a {
@@ -193,74 +19,342 @@ a:hover {
     color: #71b7e6;
 }
 
-footer {
-    background-color: rgba(0, 0, 0, 0.7);
-    text-align: center;
-    padding: 1rem 0;
+
+/* Header Styles */
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem 2rem;
     position: fixed;
     width: 100%;
-    bottom: 0;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-footer p {
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
     margin: 0;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #9b59b6;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+
+/* Header Logo */
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+
+/* About Section */
+
+#about {
+    padding: 100px 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 30px 0;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 #about .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about img.pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ffeb3b;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#about img.pic:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
 #about h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    color: #ffeb3b;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#about h1:nth-of-type(2) {
     font-size: 2.5rem;
+    color: #fff;
+    margin-top: 0.5rem;
 }
 
 #about p {
-    max-width: 600px;
-    line-height: 1.6;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    line-height: 1.8;
+    color: #ddd;
+    max-width: 700px;
+    text-align: center;
+    position: relative;
 }
 
-#experience .experience-item {
-    margin-bottom: 2rem;
+#about p::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    width: 80%;
+    height: 5px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    border-radius: 2px;
 }
 
-#experience h3 {
+.resume-download {
+    margin-top: 1.5rem;
+}
+
+.resume-download a {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #ffeb3b;
+    color: #000;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.resume-download a:hover {
+    background-color: #fbc02d;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Section Styles */
+
+.section {
+    padding: 80px 0;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    margin: 30px 0;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+/* Skills Section */
+
+#skills .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.skill-item {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 1rem;
+    text-align: left;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.skill-item h3 {
     font-size: 1.5rem;
+    margin-bottom: 0.5rem;
     color: #ffeb3b;
 }
 
-#education p {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
+.skill-item p {
+    font-size: 1.1rem;
+    margin: 0;
 }
+
+.skill-item:hover {
+    transform: translateY(-10px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+/* Certifications Section */
+
+#awards {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2rem 0;
+}
+
+#awards ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+#awards li {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+#awards li h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #ffeb3b;
+}
+
+#awards li p {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+#awards li:hover {
+    transform: translateY(-10px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+/* Experience Section */
+
+.experience-item {
+    text-align: left;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.experience-item h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    color: #ffeb3b;
+}
+
+
+/* Education Section */
+
+.education-item {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.education-item h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    color: #ffeb3b;
+}
+
+.degree,
+.graduation {
+    font-size: 1.2rem;
+}
+
+
+/* Projects Section */
+
+.project-item {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-item h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    color: #ffeb3b;
+}
+
+.project-item ul {
+    list-style: disc;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-left: 1.5rem;
+}
+
+
+/* Contact Section */
 
 .contact-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     gap: 1rem;
 }
 
 .contact-item {
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    padding: 1rem;
+    border-radius: 15px;
+    padding: 1.5rem;
     margin: 0.5rem;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: transform 0.3s;
-    width: 200px;
+    transition: transform 0.3s, background-color 0.3s;
+    width: 220px;
 }
 
 .contact-item img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin-bottom: 0.5rem;
 }
 
@@ -278,12 +372,34 @@ footer p {
 }
 
 .contact-item:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
+    background-color: rgba(255, 255, 255, 0.2);
 }
+
+
+/* Footer Styles */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 1.5rem 2rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -6px 15px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* Media Queries */
 
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
+        text-align: center;
     }
     nav ul li {
         margin: 0.5rem 0;
@@ -300,6 +416,13 @@ footer p {
     .skill-item {
         width: 80%;
         margin: 0.5rem auto;
+    }
+    #awards ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    #awards li {
+        width: 80%;
     }
     .contact-info {
         flex-direction: column;
